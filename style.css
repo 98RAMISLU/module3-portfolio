@@ -2,19 +2,37 @@ body {
   font-family: "Pragati Narrow", sans-serif;
   margin: 0;
 }
+.control-space {
+  margin-bottom: -65px;
+}
+.upper-margin {
+  margin-top: 80px;
+}
 h1 {
   font-size: 50px;
+}
+h2 {
+  font-size: 40px;
+}
+.control-space2 {
+  margin-bottom: -5px;
+  margin-top: -20px;
 }
 .orange-color {
   color: orange;
 }
 section {
+  padding-left: 5%;
+}
+.flexiable-container {
   display: flex;
   margin-bottom: 150px;
 }
 .half {
   width: 50%;
-  padding-left: 5%;
+}
+.half p {
+  margin-bottom: 30px;
 }
 .half img {
   width: 90%;
@@ -39,4 +57,29 @@ section {
 }
 .give-pad {
   padding-right: 120px;
+}
+.Experience-area {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.experiance-item {
+  width: 40%;
+  margin: 5%;
+  border-radius: 5px;
+  padding: 25px 10px 50px 30px;
+  box-shadow: 10px 10px 40px gray;
+}
+#web-dev-right {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+#web-dev-left {
+  border-left: 7px solid;
+  border-image: linear-gradient(salmon, tomato);
+  border-image-slice: 1;
+}
+footer p {
+  text-align: center;
 }
